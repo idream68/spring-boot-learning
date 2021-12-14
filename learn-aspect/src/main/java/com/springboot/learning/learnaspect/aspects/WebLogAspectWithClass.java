@@ -1,27 +1,25 @@
 package com.springboot.learning.learnaspect.aspects;
 
 import com.google.gson.Gson;
-import com.springboot.learning.learnaspect.annotation.WebLog;
-import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.aspectj.lang.reflect.MethodSignature;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
-import java.lang.reflect.Method;
 import java.util.Arrays;
 
 
 @Aspect
 @Component
-@Slf4j
 @Order(1)
 public class WebLogAspectWithClass {
+    private final Logger log = LoggerFactory.getLogger(WebLogAspectWithClass.class);
     /**
      * 设置切点，按照方法名方式
      */

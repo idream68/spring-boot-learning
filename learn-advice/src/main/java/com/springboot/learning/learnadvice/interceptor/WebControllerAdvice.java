@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 @Order(1)
 @RestControllerAdvice(basePackages = "com.springboot.learning.learnadvice.controller.web")
 public class WebControllerAdvice {
-    Logger logger = LoggerFactory.getLogger(ControllerInterceptor.class);
+    private final Logger logger = LoggerFactory.getLogger(ControllerInterceptor.class);
 
     /**
      * 使用@ExceptionHandler全局处理异常

@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 @Order(2)
 @RestControllerAdvice(basePackages = "com.springboot.learning.learnadvice.controller.api")
 public class ApiControllerAdvice {
-    Logger logger = LoggerFactory.getLogger(ApiControllerAdvice.class);
+    private final Logger logger = LoggerFactory.getLogger(ApiControllerAdvice.class);
 
     /**
      * 使用@ExceptionHandler全局处理异常

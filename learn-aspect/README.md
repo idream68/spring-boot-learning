@@ -14,12 +14,13 @@
    在切点之后运行
    
 @Around, @Before, @After 执行顺序：
-@Around -> @Before -> press -> @After -> @Around
+- @Around -> @Before -> press -> @After -> @Around
 
 当一个方法由多个切点
 则可使用@Order指定顺序优先级
 例：
-P1 优先级较高
-P2 优先级较低
+- P1 优先级较高
+- P2 优先级较低
+
 执行顺序
-P1#Around -> P1#Before -> P2#Around -> P2#Before -> press -> P2#After -> P2#Around -> P1#After -> P1#Around
+- P1#Around -> P1#Before -> P2#Around -> P2#Before -> press -> P2#After -> P2#Around -> P1#After -> P1#Around
