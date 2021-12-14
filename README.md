@@ -6,4 +6,6 @@
 
 ## 知识点梳理：
 - [AOP使用基础](./learn-aspect)
+- [ControllerAdvice使用基础](./learn-advice)
+
 
