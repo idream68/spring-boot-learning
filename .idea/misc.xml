@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/bean_name_generator" />
+    <file type="web" url="file://$PROJECT_DIR$/customer-bean-name" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-advice" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-aspect" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-custormer-bean-name-generator" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-webfilter" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
