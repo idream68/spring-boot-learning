@@ -6,7 +6,12 @@
     <file type="web" url="file://$PROJECT_DIR$/customer-bean-name" />
     <file type="web" url="file://$PROJECT_DIR$/learn-advice" />
     <file type="web" url="file://$PROJECT_DIR$/learn-aspect" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-caffeine" />
     <file type="web" url="file://$PROJECT_DIR$/learn-custormer-bean-name-generator" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-schedule" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-swagger/learn-swagger" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-swagger/learn-swagger2" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-web-file" />
     <file type="web" url="file://$PROJECT_DIR$/learn-webfilter" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

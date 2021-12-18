@@ -1,0 +1,11 @@
+package com.springboot.learning.learnswagger2.entity;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class User {
+    String name;
+    Integer age;
+}

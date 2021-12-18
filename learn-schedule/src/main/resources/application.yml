@@ -1,0 +1,8 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        # 设置线程池线程数量
+        size: 2
+      # 设置线程池名称模板
+      thread-name-prefix: task-
