@@ -11,7 +11,7 @@
 - [自定义生成beanName方法](./customer-bean-name)
 - [schedule基础](./learn-schedule)
 - [swagger基础](./learn-swagger)
-- [本地内存caffeine基础](./learn-caffeine)
+- [本地内存caffeine基础](learn-caffeine.bak)
 - [文件基础](./learn-web-file)
 - ...
 
