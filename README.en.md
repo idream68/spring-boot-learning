@@ -10,7 +10,8 @@ springboot knowledge combing
 - [customer bean name generator base](./customer-bean-name)
 - [schedule base](./learn-schedule)
 - [swagger base](./learn-swagger)
-- [local cache(caffeine)](learn-caffeine.bak)
+- [local cache(caffeine)](./learn-caffeine)
 - [web file base](./learn-web-file)
+- [shiro base](./learn-shiro)
 - ...
 

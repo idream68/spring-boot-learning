@@ -11,10 +11,14 @@
     <file type="web" url="file://$PROJECT_DIR$/learn-caffeine.bak" />
     <file type="web" url="file://$PROJECT_DIR$/learn-custormer-bean-name-generator" />
     <file type="web" url="file://$PROJECT_DIR$/learn-schedule" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-shiro/shiro-base" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-shiro/shiro-base.bak" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-shiro/shiro-base.bak" />
     <file type="web" url="file://$PROJECT_DIR$/learn-swagger/learn-swagger" />
     <file type="web" url="file://$PROJECT_DIR$/learn-swagger/learn-swagger2" />
     <file type="web" url="file://$PROJECT_DIR$/learn-web-file" />
     <file type="web" url="file://$PROJECT_DIR$/learn-webfilter" />
+    <file type="web" url="file://$PROJECT_DIR$/shiro-base" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

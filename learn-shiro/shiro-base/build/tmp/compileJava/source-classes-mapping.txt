@@ -1,0 +1,12 @@
+com/java/learning/shiro/base/TestMd5Hash.java
+ com.java.learning.shiro.base.TestMd5Hash
+com/java/learning/shiro/base/real/CustomerReal.java
+ com.java.learning.shiro.base.real.CustomerReal
+com/java/learning/shiro/base/TestAuthenticator.java
+ com.java.learning.shiro.base.TestAuthenticator
+com/java/learning/shiro/base/TestCustomerAuthorizingReal.java
+ com.java.learning.shiro.base.TestCustomerAuthorizingReal
+com/java/learning/shiro/base/real/CustomerMd5Real.java
+ com.java.learning.shiro.base.real.CustomerMd5Real
+com/java/learning/shiro/base/TestCustomerMd5AuthorizingReal.java
+ com.java.learning.shiro.base.TestCustomerMd5AuthorizingReal
