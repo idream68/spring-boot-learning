@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+spring:
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://192.168.1.105:3306/learn_security
+  redis:
+    host: 192.168.1.105
+    port: 6379
+    # 连接超时时间（记得添加单位，Duration）
+    timeout: 10000ms
+
+custom:
+  config:
+    ignores:
+      # 需要过滤的 post 请求
+      post:
+        - "/auth/login"
+        - "/auth/logout"
+      # 需要过滤的请求，不限方法
+      pattern:
+        - "/test/*"
