@@ -7,13 +7,15 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
         </processorPath>
-        <module name="tools.main" />
+        <module name="learn-validated.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shiro-base" target="11" />
       <module name="shiro-base.main" target="11" />
       <module name="shiro-base.test" target="11" />
+      <module name="validated.main" target="1.8" />
+      <module name="validated.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
